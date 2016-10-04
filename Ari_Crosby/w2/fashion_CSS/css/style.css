@@ -39,10 +39,15 @@ em {
 .column1 {
   clear: both;
   width: 800px;
+  float: left;
+  display: inline-block;
 }
 
 .column2 {
-
+  width: 300px;
+  float: left;
+  display: inline-block;
+  padding: 40px;
 }
 
 .navbar {
@@ -59,6 +64,7 @@ em {
   float: left;
   padding: 20px 50px;
   margin-left: 1px;
+      max-width: 16.66%
 }
 
 .inner_page {
@@ -75,10 +81,28 @@ a.readmore {
   max-width: 100%;
 }
 
-li {
+footer {
+  clear: both;
+  padding-top: 20px;
+}
+.bottomnav {
     color: #f30000;
+    display: inline-block;
+    border-right: 1px solid grey;
+    margin: 30px 0 0 0;
+    align: left;
+    padding: 0 10px;
 }
 
 #adimage {
-  max-width: 200px;
+  max-width: 290px;
+}
+
+#foottext {
+  color: lightgrey;
+}
+
+.popular_posts {
+      color:#f30000;
+      list-style-type:
 }
