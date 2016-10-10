@@ -1,4 +1,4 @@
-# GA Bank ATM App
+# GA Bank ATM App + review.
 
 ### Summary
 This lab will help you practice JavaScript functions and manipulating the DOM.
@@ -25,3 +25,25 @@ balance down to $0 and take the rest of the withdrawal from the savings account.
 If the withdrawal amount is more than the combined account balance, ignore it.
 * Make sure there is overdraft protection going both ways.
 * Are there ways to refactor your code to make it DRYer
+
+Write a simple version of it first.
+
+```
+var savingsAccount = {
+  balance: 0
+}
+
+var accountBalance = 0;
+```
+Think of the Design.
+
+Seperation of concern. (just look at what you have to do, not everything else)
+
+```
+function deposit(amount) {
+  accountBalance += amount;
+}
+
+```
+
+make your code easier to change(upgrade, improve)
