@@ -3,8 +3,6 @@ require 'sinatra/reloader'
 require 'pry'
 require 'pg'
 
-
-
 get '/' do
   # show all cars
 
