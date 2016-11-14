@@ -2,6 +2,10 @@
 
 _A JS library of useful functions:_
 
+First Add this script tag into your index.html file, just before the closing body tag:
+```
+<script src="https://github.com/ari-xb/WDI_9_HOMEWORK/blob/master/Ari_Crosby/w8/wdi.js"></script>
+```
 [To the bottom of the page\/](#bott)
 
 ```
